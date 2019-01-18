@@ -47,21 +47,51 @@ class _MainViewState extends State<MainView> {
   Widget createListView(BuildContext context, AsyncSnapshot snapshot) {
     List dataList =
         jsonDecode(snapshot.data) != null ? jsonDecode(snapshot.data) : [];
-    return new ListView.builder(
+    return new ListView.separated(
         physics: const AlwaysScrollableScrollPhysics(),
         padding: const EdgeInsets.all(16.0),
         itemCount: dataList.length,
         itemBuilder: (context, i) {
           return itemRow(context, dataList[i]);
+        },
+        separatorBuilder: (BuildContext context, int index) {
+          return Divider(color: Colors.grey);
         });
+    // return new ListView.builder(
+    //     physics: const AlwaysScrollableScrollPhysics(),
+    //     padding: const EdgeInsets.all(16.0),
+    //     itemCount: dataList.length,
+    //     itemBuilder: (context, i) {
+    //       return itemRow(context, dataList[i]);
+    //     });
   }
 
+  // Widget createListView(BuildContext context, AsyncSnapshot snapshot) {
+  //   List dataList =
+  //       jsonDecode(snapshot.data) != null ? jsonDecode(snapshot.data) : [];
+  //   return new ListView.builder(
+  //       physics: const AlwaysScrollableScrollPhysics(),
+  //       padding: const EdgeInsets.all(16.0),
+  //       itemCount: dataList.length,
+  //       itemBuilder: (context, i) {
+  //         return categoryRow(context, dataList[i]);
+  //       });
+  // }
+
+  // Widget categoryRow(context, categorys) {
+  //   return new ListView.builder(
+  //       itemCount: categorys["items"].length,
+  //       itemBuilder: (context, i) {
+  //         return categoryRow(context, categorys["items"][i]);
+  //       });
+  // }
+
   Widget itemRow(context, item) {
-    return new FlatButton(
-        child: Text(item["title"]),
-        onPressed: () {
-          Navigator.pushNamed(context, item["code"]);
-        },
-      );
+    return new ListTile(
+      title: new Text(item["title"]),
+      onTap: () {
+        Navigator.pushNamed(context, item["code"]);
+      },
+    );
   }
 }

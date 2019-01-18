@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '_routes.dart';
-import '_mainView.dart';
+import '../utils/routes.dart';
+import 'index_main.dart';
 
 class HomePage extends StatelessWidget {
   @override

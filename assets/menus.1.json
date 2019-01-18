@@ -1,0 +1,27 @@
+[
+  {
+    "categorys": "基础widget",
+    "items": [
+      {
+        "code": "TextPage",
+        "title": "文本、字体、样式"
+      },
+      {
+        "code": "",
+        "title": "按钮"
+      },
+      {
+        "code": "",
+        "title": "图片"
+      },
+      {
+        "code": "",
+        "title": "Icon"
+      },
+      {
+        "code": "",
+        "title": "输入框"
+      }
+    ]
+  }
+]
