@@ -1,16 +1,11 @@
-# news
+# news 新闻 APP
 
-A new Flutter project.
+## 环境
 
-## Getting Started
+- mock
 
-This project is a starting point for a Flutter application.
+http://yapi.demo.qunar.com/project/99420/interface/api/511876
 
-A few resources to get you started if this is your first Flutter project:
+## 功能
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 登录页
