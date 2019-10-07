@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Color(THEME_BACKGROUND_COLOR),
         body: UserLoginPage(),

@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+myScreenInit(BuildContext context, double width, double height) {
+  ScreenUtil.instance =
+      ScreenUtil(width: width, height: height, allowFontScaling: true)
+        ..init(context);
+}
+
 /// 设置宽度按
 double mySetWidth(double width) {
   return ScreenUtil.getInstance().setWidth(width);
