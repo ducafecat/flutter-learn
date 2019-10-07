@@ -6,7 +6,9 @@
 
 - [stateless stateful 有状态、无状态组件](state_less_ful_app)
 
-- [基础组件 Text RichText、TextSpan](text_widget)
+- [基础组件 Text RichText TextSpan](text_widget)
+
+- [基础组件 Image Asset NetworkImage FadeInImage CircleAvatar ClipRRect](image_widget)
 
 ## 案例
 
