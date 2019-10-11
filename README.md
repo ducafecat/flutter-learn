@@ -10,7 +10,11 @@
 
 - [基础组件 Image Asset NetworkImage FadeInImage CircleAvatar ClipRRect](image_widget)
 
-- [基础组件 utton FlatButton RaisedButton OutlineButton](button_widget)
+- [基础组件 Button FlatButton RaisedButton OutlineButton](button_widget)
+
+- [基础组件 Container BoxDecoration RadialGradient](container_widget)
+
+- [基础组件 MaterialApp Scaffold](scaffold_widget)
 
 ## 案例
 
