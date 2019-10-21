@@ -20,6 +20,8 @@
 
 - [基础组件 Fex Expanded](flex_expanded_widget)
 
+- [基础组件 Stack IndexedStack Positioned](stack_indexedstack_widget)
+
 ## 案例
 
 - [新闻 APP](news)
