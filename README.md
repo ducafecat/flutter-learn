@@ -18,6 +18,8 @@
 
 - [基础组件 Row Column](row_column_widget)
 
+- [基础组件 Fex Expanded](flex_expanded_widget)
+
 ## 案例
 
 - [新闻 APP](news)
